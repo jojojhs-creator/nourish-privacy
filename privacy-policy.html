@@ -23,10 +23,10 @@
 
 <h2>Data processed by online services</h2>
 <p><strong>Account and authentication (Supabase):</strong> Your email, account ID, display name, account timestamps, and secure authentication records are processed to create and protect your account. VitaIQ never receives your password in readable form.</p>
-<p><strong>AI features (Google Gemini):</strong> When you use an AI feature, your prompt and relevant nutrition context are sent to Google Gemini. If you explicitly request AI feedback on a progress photo, a compressed copy is sent for analysis. Your name, email, and password are not included in AI prompts.</p>
+<p><strong>AI features (Google Gemini):</strong> When you use an AI feature, your prompt and relevant nutrition context are sent to Google Gemini. If you explicitly request AI feedback on a progress photo, a compressed copy is sent for analysis. Your profile name is included in AI requests as part of the nutrition context. Your account email and password are not automatically included in AI prompts.</p>
 <p><strong>AI safety reports (Supabase):</strong> If you choose to report an AI response, the response, report category, feature context, account ID, and report time are stored for review.</p>
 <p><strong>Barcode scanning (Open Food Facts):</strong> The barcode number is sent to retrieve food information. No account or health information is included.</p>
-<p><strong>Subscriptions (RevenueCat and Google Play):</strong> Subscription status and a pseudonymous account ID are processed to purchase and restore access. We do not receive your payment card details.</p>
+<p><strong>Subscriptions (RevenueCat and Google Play):</strong> Subscription status and your sign-in email, used as your RevenueCat customer identifier, are processed to purchase and restore access. We do not receive your payment card details.</p>
 
 <h2>Device permissions</h2>
 <p>Camera access is used only when you scan a food barcode or choose to take a profile or progress photo. Notification access is used for local reminders. VitaIQ does not use precise location, contacts, advertising trackers, or profiling analytics.</p>
